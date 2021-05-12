@@ -1,0 +1,38 @@
+{
+  "autores": [
+    {
+      "nome": "JRR Tolkien",
+      "dataNascimento": "1936-01-28T10:20:00.000-03:00",
+      "genero": "M",
+      "id": 1
+    }
+  ],
+  "livros": [
+    {
+      "titulo": "Senhor dos Aneis",
+      "isbn": "2020012020",
+      "paginas": 12312,
+      "preco": 113,
+      "autor": {
+        "nome": "JRR Tolkien",
+        "dataNascimento": "1936-01-28T10:20:00.000-03:00",
+        "genero": "M",
+        "id": 2
+      },
+      "id": 1
+    },
+    {
+      "titulo": "Harry Potter",
+      "isbn": "2021022125",
+      "paginas": 121,
+      "preco": 1002,
+      "autor": {
+        "nome": "JRR Tolkien",
+        "dataNascimento": "1936-01-28T10:20:00.000-03:00",
+        "genero": "M",
+        "id": 2
+      },
+      "id": 2
+    }
+  ]
+}
