@@ -40,7 +40,7 @@
       </ion-text>
     </ion-item>
     <ion-item>
-      <ion-label position="floating">Autor:</ion-label>
+      <ion-label position="floating">Autores:</ion-label>
       <ion-select formControlName="autor">
         <ion-select-option *ngFor="let autor of autores" [value]="autor">
           {{autor.nome}}
@@ -48,7 +48,7 @@
       </ion-select>
       <ion-text color="danger" *ngIf="autor.errors">
         <small *ngIf="autor.errors.required && (autor.dirty || autor.touched)">
-          O campo AUTOR é obrigatório
+          O campo AUTORES é obrigatório
         </small>
       </ion-text>
     </ion-item>
